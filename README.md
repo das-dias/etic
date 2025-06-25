@@ -1,4 +1,4 @@
-# etic
+# `etic`
 
 Easily download bibtex formatted citations from DOI identifier.
 
