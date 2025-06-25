@@ -7,7 +7,7 @@ Heavily inspired from [citation](https://github.com/foucault/citation). I copied
 ### Example Usage:
 Input:
 ```sh
-$ uv run etic 10.1016/j.ultrasmedbio.2010.02.012
+$ etic 10.1016/j.ultrasmedbio.2010.02.012
 ```
 
 Console Output:
