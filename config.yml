@@ -1,0 +1,3 @@
+MONTH_REGEX: '\s*month\s*=\s*\{\s*?(jan|january|feb|february|mar|march|apr|april|may|jun|june|jul|july|aug|august|sep|september|oct|october|nov|november|dec|december)\s*\},?'
+LATEST_ISSN: 'http://www.issn.org/wp-content/uploads/2013/09/LTWA_20160915.txt'
+ISSN_UPD: '2016-9-15'
