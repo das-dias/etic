@@ -200,7 +200,11 @@ async def get_entry(doi: Url, cfg: Optional[Configuration] = None) -> Result:
     - Normalizes month field
     - Adds 'shortjournal' and BibTeX 'ID'
     """
-    url: Url = cfg.url_base + f"{doi}"
+    if 'https://' in doi:
+        print("Warning: Full URL provided; using as is.", file=sys.stdwerr)
+        url: Url = doi
+    else:
+        url: Url = cfg.url_base + f"{doi}"
     headers: Dict = cfg.headers
     
     try:
