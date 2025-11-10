@@ -273,7 +273,7 @@ async def get_entry(doi: Url, cfg: Optional[Configuration] = None) -> Result:
 
 def main() -> None:
     args = docopt(__doc__, version='etic v{__version__}')
-    cfg_path = Path(Path(__file__).parent / '..' / '..' / 'config.yml')
+    cfg_path = Path(Path(__file__).parent / 'config.yml')
     cfg = None
     if cfg_path.is_file():
         cfg = Configuration(cfg_path)

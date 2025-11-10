@@ -26,8 +26,9 @@ etic = "etic:main"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[include]
-files = [
-    './config.yml'
+[tool.hatch.build.targets.wheel]
+# The path is relative to the project root
+include = [
+    "/src/etic/config.yml"
 ]
 
