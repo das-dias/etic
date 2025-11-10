@@ -1,6 +1,6 @@
 [project]
 name = "etic"
-version = "0.1.13"
+version = "0.1.16"
 description = "Easily download bibtex formatted citations from DOI identifier."
 readme = "README.md"
 authors = [
